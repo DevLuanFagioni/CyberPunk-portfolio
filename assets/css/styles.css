@@ -264,10 +264,6 @@ section {
   .nav-links.active {
     display: flex;
   }
-
-    .hero-bg{
-        display: none;
-    }
 }
 
 
@@ -333,6 +329,12 @@ section {
     z-index: 2;
     max-width: 800px;
     padding: 0 20px;
+}
+
+@media (max-width: 1200px){
+    .hero-bg{
+        display: none;
+    }
 }
 
 .hero-content h1 {
