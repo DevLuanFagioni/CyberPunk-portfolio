@@ -264,6 +264,10 @@ section {
   .nav-links.active {
     display: flex;
   }
+
+    .hero-bg{
+        display: none;
+    }
 }
 
 
